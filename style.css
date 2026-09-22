@@ -1355,7 +1355,6 @@ button:focus-visible {
 }
 
 
-/* عنوان السكشن */
 
 .gallery-title {
     text-align: center;
@@ -1387,9 +1386,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   الصور
-======================================== */
+
 
 .gallery-grid {
     display: grid;
@@ -1420,7 +1417,6 @@ button:focus-visible {
 }
 
 
-/* طبقة الصورة */
 
 .gallery-overlay {
     position: absolute;
