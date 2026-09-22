@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHB الحربي | عزل الأسطح والخزانات</title>
+    <meta name="description"
+        content="مؤسسة MHB الحربي - عزل مائي، عزل حراري، وعزل فوم بولي يوريثان للأسطح والخزانات بأعلى معايير الجودة">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800;900&family=Tajawal:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grain-overlay"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header" id="siteHeader">
+        <div class="wrap header-inner">
+            <a href="#top" class="brand">
+                <img src="Logo/img1.jpeg" alt="MHB الحربي" class="brand-logo">
+
+                <span class="brand-name">
+                    مؤسسة منى عبدالله مبارك الحربي للتجارة
+                </span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="#about">من نحن</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#process">آلية العمل</a>
+                <a href="#why">لماذا نحن</a>
+                <a href="#contact">تواصل معنا</a>
+            </nav>
+            <a href="tel:0561930349" class="btn btn-ghost header-cta">
+                <span class="phone-ico"></span> اتصل الآن
+            </a>
+            <button class="burger" id="burger" aria-label="فتح القائمة">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="top">
+        <div class="hero-scene" aria-hidden="true">
+            <svg class="hero-skyline" viewBox="0 0 1440 420" preserveAspectRatio="none">
+                <polygon
+                    points="0,420 0,300 40,300 40,260 90,260 90,320 140,320 140,180 200,180 200,340 260,340 260,220 300,220 300,360 360,360 360,140 420,140 420,380 480,380 480,240 540,240 540,300 600,300 600,120 660,120 660,340 720,340 720,260 780,260 780,360 840,360 840,160 900,160 900,300 960,300 960,220 1020,220 1020,380 1080,380 1080,180 1140,180 1140,340 1200,340 1200,240 1260,240 1260,320 1320,320 1320,140 1380,140 1380,360 1440,360 1440,420" />
+            </svg>
+            <div class="rain" id="rainLayer"></div>
+            <div class="shield-line"></div>
+            <div class="foam-bubbles" id="foamBubbles"></div>
+        </div>
+
+        <div class="wrap hero-inner">
+            <p class="hero-kicker">عزل الأسطح والخزانات</p>
+            <h1 class="hero-title">
+                سقفك يستحق حماية<br>
+                <span class="hero-title-accent">تدوم مع كل موسم</span>
+            </h1>
+            <p class="hero-desc">
+                نُنفّذ عزل الأسطح والخزانات بعزل مائي، وعزل حراري، وعزل فوم بولي يوريثان،
+                باستخدام أحدث المواد المعتمدة، لحماية مبناك من تسرب الأمطار والرطوبة،
+                وتخفيف حرارة الصيف داخل المكان.
+            </p>
+            <div class="hero-actions">
+                <a href="https://wa.me/966561930349" target="_blank" rel="noopener" class="btn btn-primary">
+                    احصل على معاينة مجانية
+                </a>
+                <a href="#services" class="btn btn-outline">استعرض الخدمات</a>
+            </div>
+
+            <div class="hero-badges">
+                <div class="badge-item">
+                    <span class="badge-num" data-count="3">0</span>
+                    <span class="badge-label">أنواع عزل متكاملة</span>
+                </div>
+                <div class="badge-sep"></div>
+                <div class="badge-item">
+                    <span class="badge-num" data-count="100" data-suffix="%">0</span>
+                    <span class="badge-label">اختبار جودة قبل التسليم</span>
+                </div>
+                <div class="badge-sep"></div>
+                <div class="badge-item">
+                    <span class="badge-num" data-count="2018">0</span>
+                    <span class="badge-label">سجل تجاري نشط منذ</span>
+                </div>
+            </div>
+        </div>
+
+        <svg class="wave-divider" viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,64 C 240,120 480,10 720,50 C 960,90 1200,20 1440,64 L1440,110 L0,110 Z">
+            </path>
+        </svg>
+    </section>
+    <!-- ===== ABOUT US ===== -->
+    <section class="about-section" id="about">
+
+        <div class="wrap">
+
+            <div class="about-grid">
+
+                <div class="about-content">
+
+                    <span class="about-label">
+                        من نحن
+                    </span>
+
+                    <h2>
+                        مؤسسة منى عبدالله مبارك الحربي للتجارة
+                    </h2>
+
+                    <p class="about-intro">
+                        نقدم خدمات متخصصة في عزل الأسطح والخزانات،
+                        مع الحرص على توفير حلول فعالة تساعد على حماية
+                        المباني والمحافظة عليها في مختلف الظروف المناخية.
+                    </p>
+
+                    <p>
+                        نعمل على تنفيذ أعمال العزل باستخدام المواد والأساليب
+                        المناسبة لكل موقع، مع الاهتمام بجودة التنفيذ ودقة
+                        التفاصيل من بداية العمل وحتى الانتهاء منه.
+                    </p>
+
+                    <p>
+                        هدفنا هو تقديم خدمة منظمة واحترافية تلبي احتياجات
+                        العملاء، مع الالتزام بالمواعيد والاهتمام بجودة العمل
+                        ورضا العميل.
+                    </p>
+
+
+                    <div class="about-features">
+
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <div>
+                                <h4>حماية موثوقة</h4>
+                                <p>
+                                    حلول تساعد على حماية الأسطح والخزانات.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+
+                            <div>
+                                <h4>تنفيذ احترافي</h4>
+                                <p>
+                                    اهتمام بالتفاصيل وجودة في تنفيذ الأعمال.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+
+                            <div>
+                                <h4>التزام بالمواعيد</h4>
+                                <p>
+                                    تنظيم العمل والحرص على إنجاز الخدمة.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+
+                            <div>
+                                <h4>اهتمام بالعميل</h4>
+                                <p>
+                                    نحرص على تقديم تجربة واضحة ومريحة للعميل.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-visual">
+
+                    <div class="about-image-main">
+
+                        <img src="imgs/img1.jpeg" alt="من أعمال مؤسسة منى عبدالله مبارك الحربي">
+
+                    </div>
+
+                    <div class="about-badge">
+
+                        <i class="fa-solid fa-building"></i>
+
+                        <div>
+                            <strong>مؤسسة رسمية</strong>
+                            <span>خدمات متخصصة واحترافية</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>ثلاث طبقات حماية لسقفك</h2>
+                <p>كل مبنى له طبيعة مختلفة، لهذا نبدأ دائمًا بمعاينة السطح قبل اختيار نوع العزل والسماكة المناسبة له.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card service-water">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M24 4C24 4 10 21.5 10 30.5C10 38.5 16.5 44 24 44C31.5 44 38 38.5 38 30.5C38 21.5 24 4 24 4Z"
+                                stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>عزل مائي</h3>
+                    <p>حماية كاملة للأسطح والخزانات من تسرب مياه الأمطار والرطوبة الصاعدة، بطبقات عازلة مرنة تتحمل
+                        تقلبات الطقس.</p>
+                    <ul class="service-points">
+                        <li>مقاومة عالية لتراكم المياه</li>
+                        <li>حماية الخرسانة من التشققات</li>
+                        <li>مناسب للأسطح والخزانات معًا</li>
+                    </ul>
+                </article>
+
+                <article class="service-card service-thermal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M24 30V8M24 8C21 8 19 10.5 19 13.5V26.5C16.5 28 15 30.8 15 34C15 38.4 19 42 24 42C29 42 33 38.4 33 34C33 30.8 31.5 28 29 26.5V13.5C29 10.5 27 8 24 8Z"
+                                stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>عزل حراري</h3>
+                    <p>تقليل انتقال حرارة الصيف إلى داخل المبنى، ما يخفّف الاعتماد على التكييف ويحافظ على درجة حرارة
+                        معتدلة طوال اليوم.</p>
+                    <ul class="service-points">
+                        <li>خفض درجة حرارة الأسطح العلوية</li>
+                        <li>توفير في استهلاك الكهرباء</li>
+                        <li>راحة داخلية طوال العام</li>
+                    </ul>
+                </article>
+
+                <article class="service-card service-foam">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="16" cy="18" r="6" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="30" cy="14" r="4" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="32" cy="27" r="8" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="17" cy="33" r="5" stroke="currentColor" stroke-width="2.5" />
+                        </svg>
+                    </div>
+                    <h3>عزل فوم بولي يوريثان</h3>
+                    <p>رغوة عازلة تُرش مباشرة وتلتحم بالسطح دون فواصل، فتجمع بين العزل المائي والحراري في طبقة واحدة
+                        متينة وخفيفة الوزن.</p>
+                    <ul class="service-points">
+                        <li>تغطية متجانسة بلا فواصل أو لحامات</li>
+                        <li>وزن خفيف لا يُثقل الهيكل الإنشائي</li>
+                        <li>عمر افتراضي طويل بصيانة أقل</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+        <svg class="wave-divider wave-flip" viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,64 C 240,120 480,10 720,50 C 960,90 1200,20 1440,64 L1440,110 L0,110 Z">
+            </path>
+        </svg>
+    </section>
+    <!-- ===== GALLERY SECTION ===== -->
+    <section class="gallery-section" id="gallery">
+
+        <div class="wrap">
+
+            <div class="section-title gallery-title">
+
+                <span>من أعمالنا</span>
+
+                <h2>شاهد بعض أعمالنا</h2>
+
+                <p>
+                    نحرص على تنفيذ أعمال العزل والصيانة بأعلى مستوى من الجودة
+                    والاهتمام بكل التفاصيل للحصول على أفضل نتيجة.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="imgs/img1.jpeg" alt="من أعمال مؤسسة منى عبدالله مبارك الحربي" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="imgs/img2.jpeg" alt="أحد أعمال المؤسسة" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="imgs/img3.jpeg" alt="أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="imgs/img4.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img5.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img6.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img7.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img8.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img9.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgs/img10.jpeg" alt="تنفيذ أعمال العزل" loading="lazy">
+
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="videos-title">
+
+                <span>فيديوهات من أعمالنا</span>
+
+                <h3>شاهد التنفيذ على أرض الواقع</h3>
+
+            </div>
+
+
+            <div class="videos-grid">
+
+                <div class="video-card">
+
+                    <video controls preload="metadata">
+                        <source src="imgs/vid1.mp4" type="video/mp4">
+                        المتصفح لا يدعم تشغيل الفيديو.
+                    </video>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <video controls preload="metadata">
+                        <source src="imgs/vid2.mp4" type="video/mp4">
+                        المتصفح لا يدعم تشغيل الفيديو.
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== IMAGE LIGHTBOX ===== -->
+    <div class="image-lightbox" id="imageLightbox">
+
+        <button class="lightbox-close" id="lightboxClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <img id="lightboxImage" src="" alt="صورة من أعمالنا">
+
+    </div>
+    <!-- ===== PROCESS ===== -->
+    <section class="process" id="process">
+        <div class="wrap">
+            <div class="section-head light">
+                <h2>من المعاينة إلى التسليم</h2>
+                <p>أربع خطوات ثابتة نتّبعها في كل مشروع، مهما كانت مساحة السطح أو نوع الخزان.</p>
+            </div>
+
+            <div class="process-track">
+                <div class="process-line">
+                    <div class="process-line-fill" id="processFill"></div>
+                </div>
+
+                <div class="process-step">
+                    <span class="step-num">01</span>
+                    <h3>معاينة السطح</h3>
+                    <p>فحص ميداني لحالة السطح أو الخزان وتحديد مصدر أي تسربات قائمة.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">02</span>
+                    <h3>اختيار المادة والسماكة</h3>
+                    <p>تحديد نوع العزل المناسب (مائي، حراري، أو فوم) والسماكة التي يحتاجها المشروع.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">03</span>
+                    <h3>التنفيذ الاحترافي</h3>
+                    <p>تنفيذ العزل بأحدث المواد المعتمدة على يد فريق متخصص في كل طبقة.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">04</span>
+                    <h3>اختبار الجودة والتسليم</h3>
+                    <p>اختبار فعلي لكفاءة العزل قبل التسليم لضمان نتيجة تدوم لسنوات.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="why" id="why">
+        <div class="wrap why-grid">
+            <div class="why-visual" aria-hidden="true">
+                <div class="why-blob"></div>
+                <img src="Logo/img1.jpeg" alt="" class="why-logo-mark">
+            </div>
+            <div class="why-content">
+                <h2>لماذا يثق أصحاب المباني بمؤسسة MHB؟</h2>
+                <div class="why-list">
+                    <div class="why-item">
+                        <h4>مواد معتمدة فقط</h4>
+                        <p>نتعامل مع مواد عزل مطابقة للمواصفات، دون بدائل أقل جودة توفيرًا للتكلفة.</p>
+                    </div>
+                    <div class="why-item">
+                        <h4>سماكة تُحسب لا تُخمَّن</h4>
+                        <p>نحدد سماكة العزل بناءً على طبيعة السطح وتعرضه للشمس والمياه، لا بمقاس ثابت للجميع.</p>
+                    </div>
+                    <div class="why-item">
+                        <h4>اختبار قبل التسليم</h4>
+                        <p>لا نُسلّم أي مشروع قبل اختبار فعلي يثبت كفاءة العزل المائي والحراري.</p>
+                    </div>
+                    <div class="why-item">
+                        <h4>سجل تجاري نشط وموثّق</h4>
+                        <p>مؤسسة مرخصة رسميًا لدى وزارة التجارة، وهذا ضمانك في التعامل معنا.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMMERCIAL REGISTER ===== -->
+    <section class="commercial-register" id="commercial-register">
+
+        <div class="wrap">
+
+            <div class="section-title">
+                <span>توثيق المؤسسة</span>
+                <h2>مؤسسة رسمية وموثوقة</h2>
+                <p>
+                    مؤسسة منى عبدالله مبارك الحربي للتجارة
+                    مسجلة رسميًا وتعمل وفق الأنظمة المعتمدة.
+                </p>
+            </div>
+
+            <div class="register-card">
+
+                <div class="register-icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+
+                <div class="register-content">
+
+                    <h3>السجل التجاري</h3>
+
+                    <p>
+                        نفخر بتقديم خدماتنا كمنشأة تجارية مسجلة،
+                        ونحرص على تقديم أعمالنا باحترافية وموثوقية.
+                    </p>
+
+                    <div class="register-info">
+
+                        <div>
+                            <span>اسم المؤسسة</span>
+                            <strong>
+                                مؤسسة منى عبدالله مبارك الحربي للتجارة
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>حالة السجل</span>
+                            <strong class="active-status">
+                                <i class="fa-solid fa-circle-check"></i>
+                                نشط
+                            </strong>
+                        </div>
+
+                    </div>
+
+                    <a href="Logo/img2.png" target="_blank" class="register-btn">
+
+                        <i class="fa-solid fa-file-pdf"></i>
+                        عرض السجل التجاري
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="wrap">
+            <div class="section-head light">
+                <h2>جاهزون لمعاينة سطحك اليوم</h2>
+                <p>تواصل مباشرة مع فريق المهندسين لتحديد موعد المعاينة، أو للاستفسار عن أنسب نوع عزل لمشروعك.</p>
+            </div>
+
+            <div class="contact-cards">
+                <a class="contact-card" href="tel:0561930349">
+                    <div class="contact-avatar">أ ر</div>
+                    <div class="contact-info">
+                        <h4>م. أحمد رفعت</h4>
+                        <span class="contact-number" dir="ltr">0561930349</span>
+                    </div>
+                    <span class="contact-arrow"></span>
+                </a>
+                <a class="contact-card" href="tel:0546841051">
+                    <div class="contact-avatar">ع ن</div>
+                    <div class="contact-info">
+                        <h4>م. علي عبد الناصر</h4>
+                        <span class="contact-number" dir="ltr">0546841051</span>
+                    </div>
+                    <span class="contact-arrow"></span>
+                </a>
+            </div>
+
+            <div class="contact-whatsapp">
+                <a href="https://wa.me/966561930349" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                    راسلنا على واتساب الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <img src="Logo/img1.jpeg" alt="MHB الحربي" class="footer-logo">
+            <p class="footer-tag">عزل الأسطح والخزانات — عزل مائي، عزل حراري، وعزل فوم بولي يوريثان</p>
+            <div class="footer-links">
+                <a href="#services">خدماتنا</a>
+                <a href="#process">آلية العمل</a>
+                <a href="#why">لماذا نحن</a>
+                <a href="#contact">تواصل معنا</a>
+            </div>
+            <p class="footer-copy">© <span id="year"></span> مؤسسة MHB الحربي. جميع الحقوق محفوظة.</p>
+            <p class="footer-copy">
+                تصميم وتنفيذ
+                <a href="https://www.facebook.com/share/199H6ZiBeM/" target="_blank" style="text-decoration: none;">
+                    <span class="gmt-text" style="color: var(--sky); font-weight: bold;">GMT Web</span>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/966561930349" target="_blank" rel="noopener" class="floating-whatsapp"
+        aria-label="تواصل عبر واتساب">
+        <svg viewBox="0 0 32 32" fill="currentColor">
+            <path
+                d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.4.7 4.7 1.9 6.7L3 29l6.8-2.1c1.9 1.1 4 1.6 6.2 1.6 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4 1.2 1.2-3.9-.3-.4a10.3 10.3 0 0 1-1.6-5.5C5.5 9.9 10.2 5.2 16 5.2S26.5 9.9 26.5 15.7 21.8 26.2 16 26.2zm5.8-7.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.2 3.4 5.3 4.7.7.3 1.3.5 1.8.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
